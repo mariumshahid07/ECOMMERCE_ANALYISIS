@@ -50,8 +50,9 @@ The full diagram is in [Olist_EER_diagram.pdf](Olist_EER_diagram.pdf).
 7. Start the backend:
    ```bash
    uvicorn backend.main:app --reload
-   ```
-
+      ```
+   
+## Screenshots
 
 ### Application Dashboard
 ![Dashboard 1](SCREENSHOTS%20OF%20APPLICATION%20DASHBOARD/app_1.png)
