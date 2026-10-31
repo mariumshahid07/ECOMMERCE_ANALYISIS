@@ -52,19 +52,17 @@ The full diagram is in [Olist_EER_diagram.pdf](Olist_EER_diagram.pdf).
    uvicorn backend.main:app --reload
    ```
 
-## Screenshots
 
-### Database setup
-<!-- SCREENSHOT 2: MySQL tables and row counts -->
-![Tables and row counts](screenshots/row_counts.png)
+### Application Dashboard
+![Dashboard 1](SCREENSHOTS%20OF%20APPLICATION%20DASHBOARD/app_1.png)
+![Dashboard 2](SCREENSHOTS%20OF%20APPLICATION%20DASHBOARD/app_2.png)
+![Dashboard 3](SCREENSHOTS%20OF%20APPLICATION%20DASHBOARD/app_3.png)
+![Dashboard 4](SCREENSHOTS%20OF%20APPLICATION%20DASHBOARD/app_4.png)
+![Dashboard 5](SCREENSHOTS%20OF%20APPLICATION%20DASHBOARD/app_5.png)
+![Dashboard 6](SCREENSHOTS%20OF%20APPLICATION%20DASHBOARD/app_6.png)
+![Dashboard 7](SCREENSHOTS%20OF%20APPLICATION%20DASHBOARD/app_7.png)
 
-### Analysis queries
-<!-- SCREENSHOT 3: query output -->
-![Query output](screenshots/query_output.png)
 
-### Application
-<!-- SCREENSHOT 4: frontend or API page -->
-![Application](screenshots/app.png)
 
 ## Author
 
