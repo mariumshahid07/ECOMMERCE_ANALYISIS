@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Olist Analytics</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <span class="brand-mark" id="brandMark"></span>
+      <div><strong>Olist</strong><small>E-Commerce Analytics</small></div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="sidebar-foot">
+      <span class="muted">Database</span>
+      <strong id="dbName">olist_ecommerce</strong>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+
+  <!-- ============ MAIN ============ -->
+  <div class="main">
+    <header class="topbar">
+      <button class="icon-btn only-mobile" id="menuBtn" aria-label="Open menu"></button>
+      <form class="global-search" id="globalSearch" autocomplete="off">
+        <span class="gs-icon" id="gsIcon"></span>
+        <input id="globalSearchInput" placeholder="Jump to an order — paste an Order ID and press Enter" />
+      </form>
+      <div class="topbar-right">
+        <span class="pill" id="dbStatus"><i class="dot"></i><span>Connecting…</span></span>
+        <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode"></button>
+        <div class="user"><span class="avatar">A</span><span class="user-name">Admin</span></div>
+      </div>
+    </header>
+
+    <main id="view" class="view"></main>
+  </div>
+
+  <!-- ============ DETAIL DRAWER (order / customer / product / seller) ============ -->
+  <div class="drawer-wrap" id="drawerWrap" hidden>
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    <section class="drawer" role="dialog" aria-modal="true">
+      <header class="drawer-head">
+        <button class="btn ghost small" id="drawerBack" hidden>← Back</button>
+        <h2 id="drawerTitle">Details</h2>
+        <button class="icon-btn" id="drawerClose" aria-label="Close"></button>
+      </header>
+      <div class="drawer-body" id="drawerBody"></div>
+    </section>
+  </div>
+
+  <script src="/static/js/vendor/chart.umd.js"></script>
+  <script src="/static/js/core.js"></script>
+  <script src="/static/js/details.js"></script>
+  <script src="/static/js/pages.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
